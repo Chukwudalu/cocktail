@@ -43,7 +43,8 @@ const StyledHero = styled.section`
    p{
         animation: pAnimation 1s;
         margin-bottom: 30px;
-        line-height: 1.6
+        line-height: 1.6;
+        font-size: calc(1.1rem + 1vw)
    }
    
    @keyframes h3Animation{

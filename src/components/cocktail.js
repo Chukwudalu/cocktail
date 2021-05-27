@@ -43,7 +43,8 @@ const StyledCocktail = styled(motion.div)`
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 20px 20px
+        padding: 20px 20px;
+        font-size: calc(1rem + 1vw)
     }
     .container{
         width: 100%;

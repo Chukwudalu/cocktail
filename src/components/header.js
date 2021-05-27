@@ -6,11 +6,9 @@ const Header = () => {
     return ( 
         <StyledNav>
             <h2><Link to='/'>Cocktail 'n' Grill</Link></h2>
-            <ul>
-                <li><Link to=''>Home</Link></li>
-                <li><Link to=''>Contact</Link></li>
-                <li><Link to=''>Reservations</Link></li>
-            </ul>
+            {/* <ul>
+                <li><Link to='/'>Home</Link></li>
+            </ul> */}
         </StyledNav>
     )
     
@@ -46,7 +44,7 @@ const StyledNav = styled.nav`
 
         li{
             padding: 0 10px;
-            font-size: calc(0.6rem + 1vw)
+            font-size: calc(0.9rem + 1vw)
         }
         
         a{
